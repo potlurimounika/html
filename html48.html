@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Form in Table</title>
+</head>
+<body background="file://c:/internship/html/images/bbg3.jpg">
+    <form name="fm1">
+       <center><table width="350"height="400"bordercolor="black" background="file://c:/internship/html/images/bbg2.jpg">
+        <caption align="button"><img src="file://c:/internship/html/images/FT.gif"></caption>
+            <tr>
+                <th style="color:red;"><label>First Name</label></th>
+                <td><input type="text" id="fna" name="fna" placeholder="First Name" required autofocus></td>
+            </tr>
+            <tr>
+                <th style="color:red;"><label>Last Name</label></th>
+                <td><input type="text" id="lna" name="lna" placeholder="Last Name" required></td>
+            </tr>
+            <tr>
+                <th style="color:red;">Course:</th>
+                <td style="color:red;">
+                    <input type="checkbox" name="course" value="dca">DCA
+                    <input type="checkbox" name="course" value="wdev">Web Developer
+                    <input type="checkbox" name="course" value="wdes">Web Designer
+                </td>
+            </tr>
+            <tr>
+                <th style="color:red;">Fee:</th>
+                <td style="color:red;">
+                    <input type="radio" value="cash" name="fees" checked>Cash
+                    <input type="radio" value="cheque" name="fees">Cheque
+                    <input type="radio" value="dd" name="fees">DD
+                </td>
+            </tr>
+            <tr>
+                <th style="color:red;"><label>Place:</label></th>
+                <td>
+                    <select name="apl" style="color:red;">
+                        <option value="ongole">Ongole</option>
+                        <option value="nellore">Nellore</option>
+                        <option value="guntur">Guntur</option>
+                        <option value="tirupathi">Tirupathi</option>
+                        <option value="gudur">Gudur</option>
+                        <option value="vijayawada">Vijayawada</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="color:red;"><label>Basic Qualification:</label></th>
+                <td>
+                    <select multiple name="bq" style="color:red;">
+                        <option value="ssc">SSC</option>
+                        <option value="inter">INTER</option>
+                        <option value="degree">DEGREE</option>
+                        <option value="pg">PG</option>
+                        <option value="diploma">DIPLOMA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="color:red;"><label>Address:</label></th>
+                <td><textarea name="adr"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;" style="color:red;">
+                    <input type="submit" value="Submit" style="color:red;">
+                    <input type="reset" value="Reset" style="color:red;">
+                </td>
+            </tr>
+        </table></center>
+    </form>
+</body>
+</html>

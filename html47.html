@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>use video</title>
+        </head>
+        <body>
+            <form name="fm1">
+                <label>First Name</label>
+                <input type="text" name="fna" placeholder="First Name" required autofocus><br><br>
+                <label>Last Name</label>
+
+                <input type="text" name="lna" placeholder="Last Name" required autofocus><br><br>
+                <label>COURSE:</label>
+
+                <input type="checkbox" name="course" value="dca">DCA 
+                <input type="checkbox" name="course" value="wdev">WEB DEVELOPER
+                <input type="checkbox" name="course" value="wdes">WEB DESIGNER<br><br>
+
+                <label>FEE:</label>
+                <input type="radio" value="cash" name="fees" checked>CASH
+                <input type="radio" value="cheque" name="fees" checked>CHEQUE
+                <input type="radio" value="dd" name="fees" checked>DD<br><br>
+
+                <label>PLACE:</label>
+                <select name="apl">
+                    <option value="ongole">ONGOLE</option>
+                    <option value="nellore">NELLORE</option>
+                    <option value="guntur">GUNTUR</option>
+                    <option value="tirupathi">TIRUPATHI</option>
+                    <option value="gudur">GUDUR</option>
+                    <option value="vijayawada">VIJAYAWADA</option>              
+                </select><br><br>
+
+                <label>BASIC QUALIFICATION</label>
+                <select multiple name="bq">
+                    <option value="ssc">SSC</option>
+                    <option value="inter">INTER</option>
+                    <option value="degree">DEGREE</option>
+                    <option value="pg">PG</option>
+                    <option value="diploma">DIPLOMA</option>
+                </select><br><br>
+
+                <label>ADDRESS:</label>
+                <textarea name="adr"></textarea><br><br>
+
+                <input type="SUBMIT" value="submit">
+
+                <input type="RESET" value="reset" onclick="reset()">
+                </form>
+            </body>
+            </html>
